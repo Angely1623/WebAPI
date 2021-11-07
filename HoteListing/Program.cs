@@ -25,7 +25,7 @@ namespace Hotellisting
 
             try
             {
-                Log.Information("inicialisando la aplicacion (API Hotels)");
+                Log.Information("inicializando la aplicacion (API Hotels)");
                 CreateHostBuilder(args).Build().Run();
             }
             catch (Exception ex)

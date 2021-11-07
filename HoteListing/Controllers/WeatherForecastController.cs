@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HoteListing.Controllers
 {
-    [Authorize]
+   // [Authorize] se elimina uso de authorize.
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
